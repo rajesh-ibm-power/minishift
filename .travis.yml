@@ -1,7 +1,10 @@
 language: go
-
+arch:
+ - amd64
+ - ppc64le
 go:
-- 1.13.3
+ - 1.13.3
+ - 1.15.6
 
 install:
 - mkdir -p /home/travis/gopath/bin
